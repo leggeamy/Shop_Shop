@@ -1,6 +1,0 @@
-{
-  "error": {
-    "message": "You must specify either `product` or `product_data` when creating a price.",
-    "type": "invalid_request_error"
-  }
-}
