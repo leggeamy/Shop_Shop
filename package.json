@@ -8,7 +8,7 @@
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
+    "seed": "cd Server && npm run seed",
     "heroku-postbuild": "cd client && npm run build"
   },
   "author": "",
@@ -22,4 +22,3 @@
     "concurrently": "^5.1.0"
   }
 }
-// test //
