@@ -6,10 +6,10 @@
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd Server && npm start",
-    "start:dev": "concurrently \"cd Server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd Server && npm i && cd ../client && npm i",
+    "start:dev": "concurrently \"cd Server && npm run watch\" \"cd Client && npm start\"",
+    "install": "cd Server && npm i && cd ../Client && npm i",
     "seed": "cd Server && npm run seed",
-    "heroku-postbuild": "cd client && npm run build"
+    "heroku-postbuild": "cd Client && npm run build"
   },
   "author": "",
   "license": "ISC",
